@@ -241,3 +241,4 @@ C:\Users\aleks\source\repos\WebAppQuiz\WebAppQuiz\obj\Debug\net8.0\refint\WebApp
 C:\Users\aleks\source\repos\WebAppQuiz\WebAppQuiz\obj\Debug\net8.0\WebAppQuiz.pdb
 C:\Users\aleks\source\repos\WebAppQuiz\WebAppQuiz\obj\Debug\net8.0\WebAppQuiz.genruntimeconfig.cache
 C:\Users\aleks\source\repos\WebAppQuiz\WebAppQuiz\obj\Debug\net8.0\ref\WebAppQuiz.dll
+C:\Users\aleks\source\repos\WebAppQuiz\WebAppQuiz\obj\Debug\net8.0\WebAppQuiz.sourcelink.json

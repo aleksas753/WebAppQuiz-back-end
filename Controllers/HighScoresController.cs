@@ -39,39 +39,8 @@ namespace WebAppQuiz.Controllers
             return Ok(highScores);
         }
 
-        // PUT: api/HighScores/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutHighScores(int id, HighScore highScores)
-        {
-            if (id != highScores.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(highScores).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!HighScoresExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
 
         // POST: api/HighScores
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<HighScore>> PostHighScores([FromBody] HighScoreDto dto)
         {
